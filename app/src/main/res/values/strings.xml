@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KeyboardUtil</string>
+    <string name="tag_1">1</string>
+    <string name="pwd_no_1">1\n</string>
+    <string name="pwd_no_2">2\nABC</string>
+    <string name="tag_2">2</string>
+    <string name="pwd_no_3">3\nDEF</string>
+    <string name="tag_3">3</string>
+    <string name="pwd_no_4">4\nGHI</string>
+    <string name="tag_4">4</string>
+    <string name="pwd_no_5">5\nJKL</string>
+    <string name="tag_5">5</string>
+    <string name="pwd_no_6">6\nMNO</string>
+    <string name="tag_6">6</string>
+    <string name="pwd_no_7">7\nPQRS</string>
+    <string name="tag_7">7</string>
+    <string name="pwd_no_8">8\nTUV</string>
+    <string name="tag_8">8</string>
+    <string name="pwd_no_9">9\nWXYZ</string>
+    <string name="tag_9">9</string>
+    <string name="tag_0">0</string>
+    <string name="pwd_no_0">0</string>
+    <string name="tag_delete">delete</string>
+
+</resources>

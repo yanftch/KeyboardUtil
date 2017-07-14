@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@color/color_white"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+    <!--标题栏-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/value_30_px">
+
+        <ImageView
+            android:id="@+id/dialog_iv_cancle"
+            android:layout_width="@dimen/value_30_px"
+            android:layout_height="@dimen/value_30_px"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:src="@mipmap/close_fi"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/dialog_tv_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请输入交易密码"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/value_1_px"
+            android:layout_below="@id/dialog_tv_ic"
+            android:layout_marginTop="@dimen/value_20_px"
+            android:background="@color/color_429ae6"/>
+    </RelativeLayout>
+    <!--金额信息显示-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/value_20_px"
+        android:paddingTop="@dimen/value_20_px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到账金额（元）"/>
+
+        <TextView
+            android:id="@+id/tv_out_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_30_px"
+            android:text="123.00"/>
+    </LinearLayout>
+
+    <!--密码显示框-->
+    <com.yanftch.keyboardutil.keyboard.PwdNoView
+        android:id="@+id/dialog_pwd_noview"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_marginLeft="@dimen/value_60_px"
+        android:layout_marginRight="@dimen/value_60_px"/>
+    <!--密码键盘-->
+    <com.yanftch.keyboardutil.keyboard.PwdKeyboardView
+        android:id="@+id/dialog_pwd_keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="@dimen/value_20_px"
+        android:layout_marginTop="@dimen/value_30_px"/>
+
+</LinearLayout>
